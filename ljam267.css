@@ -1,0 +1,142 @@
+td {
+     color:dark-grey;
+     font-weight: bold;
+     text-align: center;
+}
+ body{
+     background: 	#F5F5F5;
+     
+}
+ hr{
+     border-top:1px solid black;
+}
+ p{
+    font-weight: lighter;
+     font-size: 15px;
+}
+ .p2{
+    font-weight: lighter;
+     font-size: 19px;
+}
+ .normal{
+     font-size: 15px;
+     font-family:Trebuchet MS;
+     font-weight: lighter;
+     white-space: wrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     max-width: 800px;
+     box-shadow: 0 0 0.5em 0em #ccc;
+}
+ .openingParagraph {
+     text-align:center;
+     line-height: 22px;
+     font-size: 19px;
+     font-weight: lighter;
+     font-family:Bookman Header;
+     padding-top:20px;
+}
+ .padding {
+     padding-right:80px;
+     padding-bottom:50px;
+     padding-left:30px;
+     padding-top:50px;
+}
+ h1{
+     text-align: center;
+     font-size: 40px;
+     text-shadow: 2px 2px 2px #ccc;
+     font-family:Trebuchet MS;
+}
+ h2{
+     text-align: center;
+     font-size: 19px;
+     font-family:Trebuchet MS;
+}
+ .center{
+     margin-left: auto;
+     margin-right: auto;
+     overflow-wrap: break-word;
+}
+ .logo{
+     width:60px;
+     height:60px;
+}
+ iframe{
+     height:500px;
+     width:1000px;
+     border:1px solid black;
+     background-color:white;
+     width: 700px;
+     height: 450px;
+     margin-left: auto;
+     margin-right: auto;
+     display:block;
+     border-radius: 10px;
+}
+
+ .tableStyle {
+     border: 1px solid navy;
+     width: 100%;
+     font-family:Trebuchet MS;
+     font-size: 18px;
+     box-shadow: 5px 5px 10px grey;
+     border-radius: 15px;
+     background: linear-gradient(to right, #EEEEEE, #DDDDDD);
+    
+}
+ img {
+     height: 320px;
+     width: 300px;
+}
+ .svgLogo {
+     height: 140px;
+     width: 120px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+	 margin-top: 20px;
+     width: 50%;
+}
+ .displayed {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+ input[type=text] {
+     border: 1px solid black;
+     border-radius: 4px;
+}
+ textarea {
+     border: 1px solid black;
+     border-radius: 4px;
+     height:80px;
+     width:250px;
+}
+ input[type=submit] {
+     border: 1px solid grey;
+     border-radius: 4px;
+}
+ .formStyle{
+    text-align: center;
+}
+ #SectionA{
+    display:none;
+}
+ #SectionB{
+    display:none;
+}
+ #SectionC{
+    display:none;
+}
+ #SectionD{
+    display:none;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+#SectionE{
+    display:none;
+}#SectionF{
+    display:none;
+}

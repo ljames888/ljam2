@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Computer Museum </title>
+      <script defer src = "ljam267.js"> </script>
+      <link rel="stylesheet" type="text/css" href="ljam267.css">
+	  <link rel="icon" type="image/png" href="http://redsox.uoa.auckland.ac.nz/ms/logo-192x192.png"/>
+   </head>
+   <body>
+      <nav>
+         <table class ="tableStyle";>
+            <tr>
+            <td>
+               <img class ="logo" src="http://redsox.uoa.auckland.ac.nz/ms/logo.svg">
+            </td>
+               <td></td>
+               <td id="Home" onclick="showHome();">
+                  &#8962; Home &#8962;
+               </td>
+               <td id="News" onclick="showNews();">
+                  &#128240;  News &#128240;
+               </td>
+               <td id="Displays"  onclick="showDisplays();">
+                  &#128452;  Displays &#128452;
+               </td>
+               <td id="GuestBook"  onclick="showGuestBook();">
+                  &#128214; Guest Book &#128214;
+               </td>
+			   <td id="Shop"  onclick="showShop();">
+                  &#128717; Museum Shop &#128717;
+               </td>
+			  <td id="Register"  onclick="showRegister();">
+                  	
+&#128113; Register 	
+&#128113;
+               </td>
+            </tr>
+         </table>
+      </nav>
+      <div id="SectionA">
+         <section>
+            <br>
+            <img class = "svgLogo" src="http://redsox.uoa.auckland.ac.nz/ms/logo.svg">
+            <h1> Bob Doran Museum of Computing </h1>
+            <p span class= 'openingParagraph'>
+               <strong> Welcome to The Bob Doran Museum of Computing.</strong><br><br>
+               You can learn more about the displays here.<br>
+               If you are intrigued by what you find here and live close to Auckland,<br>
+               or are visiting the city, please feel free to drop in to the school <br>
+               and see the displays for yourself. We are located at the University on <br>
+               Princes Street and are always open during normal office hours and also <br>
+               in the evenings and on the weekends when classes are in session.<br>
+               <br>
+               </span> 
+            </p>
+            <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ibm_pcjr_with_display.jpg/300px-Ibm_pcjr_with_display.jpg">
+            <img class ="displayed" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ibm_pcjr_with_display.jpg/300px-Ibm_pcjr_with_display.jpg" alt="ibm">
+            </a>
+         </section>
+      </div>
+	  
+      <div id="SectionB">
+         <section>
+            <h1> News </h1>
+            <hr>
+            <table id="showTab"></table>
+         </section>
+      </div>
+	  
+      <div id="SectionC">
+         <section>
+            <p>
+            <h1> Displays </h1>
+            <hr><br>
+			<div class ="formStyle">
+            <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search through displays..&#128269;">
+            <br><br>
+            <table id="showDisp" class ="center"></table>
+			</div>
+            </p>
+         </section>
+      </div>
+	  
+      <div id="SectionD">
+         <section>
+            <h1> Guest Book </h1>
+            <hr><br>
+			<h2> Feel free to leave a comment in the guest book </h2>
+			<br>
+			<div class = "formStyle">
+			Name:
+            <br>
+            <input type="text" id = "inputName"><br><br>
+            Comment:
+            <br>
+			<textarea id = "inputComment"></textarea>
+            <br>
+			<br>
+            <input type="submit" value="Submit" onclick= "post()">
+            <br>
+            <br>
+			</div>
+            <iframe id = "refreshBuffer" src ="http://redsox.uoa.auckland.ac.nz/ms/MuseumService.svc/htmlcomments" > </iframe>
+         </section>
+      </div>
+	  <div id="SectionE">
+         <section>
+            <h1> Shop</h1>
+            <hr>
+			<div class ="formStyle">
+			<input type="text" id="word" onkeyup="searchFunctiond()" placeholder="Search through products..&#128269;">
+            <table id="showTable"></table>
+         </section></div>
+      </div>
+	  
+	  
+	   <div id="SectionF">
+         <section>
+            <h1>Register</h1>
+            <hr><br>
+			<h2> Please fill in the information for registration </h2>
+			<br>
+			<div class = "formStyle">
+			Username:
+            <br>
+            <input type="text" id = "inputUserName"><br><br>
+            Password:
+			<br>
+            <input type="text" id = "inputPassword"><br><br>
+			Address:
+			<br>
+            <input type="text" id = "inputAddress"><br><br>
+			<input type="submit" value="Sign Up" onclick= "postit()">
+           
+           
+            <br>
+            <br>
+			</div>
+         </section>
+      </div>
+   </body>
+</html>
