@@ -214,8 +214,8 @@ function searchFunctiond() {
 
 
 
-
-function postit(){
+// to do
+/*function postit(){
 	const xhr = new XMLHttpRequest();
 	const uri= "http://redsox.uoa.auckland.ac.nz/ms/MuseumService.svc/comment?name=" + document.getElementById("inputName").value;
 	xhr.open('POST', uri, true);
@@ -232,7 +232,7 @@ function postit(){
    xhr.send(JSON.stringify(comment));
 }
 
-
+*/
 
 
 
